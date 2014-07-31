@@ -1,0 +1,92 @@
+ <!DOCTYPE>
+ <html>
+ <head>
+     <script>var __adobewebfontsappname__ = "code"</script>
+    <script src="http://use.edgefonts.net/league-gothic:n4:all.js"></script>
+	<!-- MetaShit -->
+	<meta charset="UTF-8">
+	<meta name="description" content="Postal Code Information">
+	<meta name="keywords" content="Restaurants, Schools, Geography, Events, Geocaching">
+	<meta name="author" content="Marley Robinson">
+	<meta name="language" content="english">
+	<meta name="robots" content="index, follow">
+	
+	<!-- Links -->
+	<script></script>
+	<link rel="stylesheet" type="text/css" href=<g:resource dir="stylesheets" file="outputstylesheet.css"/>>
+	
+	<!-- Else -->
+	<title>Output Page</title>
+ 
+ </head>
+ <body>
+    <div id="content">
+    
+        <div class="knl">
+            <img src=<g:resource dir="images" file="lives-not-knives.png"/> alt="knl" class="knl">
+        </div>
+
+    <div class="ico">
+        <img src=<g:resource dir="images" file="small_yrs2.gif"/> alt="yrs" class="yrs">
+    </div>
+        
+    <div id="head">
+        <div class="log">
+            <br>
+            <img src=<g:resource dir="images" file="Know_Your_Place_Logov6.png"/> alt="logo" class="logo">
+            <br>
+        </div>
+    
+    </div>
+        
+    <div id="stuff">
+ 
+ 
+        <div id="blocki">
+            <form name="input" action="show" method="get">
+                <div id="pos">
+                     Enter your postcode
+
+                </div>
+                <div id="search">
+                    <input type="text" name="postcode" placeholder="Postcode">
+                    <br>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+
+        <div id="inf">
+            <!-- PostCode Info -->
+            <iframe src="${urls.codes}"></iframe>
+        </div>
+        <br>
+        <div id="geo">
+            <!-- GeoCaching -->
+            <iframe src_doc="/​/​tiles01.geocaching.com/​map.png?x=8187&y=5449&z=14" src="https://www.geocaching.com/map/default.aspx?ll=51.48614,-0.09071#?ll=51.48619,-0.09072&z=14"></iframe>
+        </div>
+        <br>
+        <div id="Sch">
+            <!-- Schools -->
+            <iframe src="${urls.schools}"></iframe>
+        </div>
+        <br>
+        <div id="res">
+            <!-- Restaurants -->
+            <iframe src="${urls.restaurants}"></iframe>
+        </div>
+        <br>
+        <div id="ev">
+            <!-- Events -->
+            <iframe src="http://www.eventbrite.co.uk/directory?q=${urls.postcode}&loc=United+Kingdom"></iframe>
+        </div>
+        <br>
+            <div id="cri">
+            <!-- Crime -->
+            <iframe src="${urls.crimes}"></iframe>
+        </div>
+
+    </div>
+        </div>
+    </body>
+</html>
