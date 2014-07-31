@@ -1,0 +1,68 @@
+<html>
+<head>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script>var __adobewebfontsappname__ = "code"</script>
+<script src="http://use.edgefonts.net/abel:n4:all;actor:n4:all;asap:n7,i4,n4,i7:all;league-gothic:n4:all.js"></script>
+</head>
+
+
+<body>
+    <div id="content">
+    
+<div class="knl">
+            <a href="http://livesnotknives.org/"><img src="lives-not-knives.png" alt="knl" class="knl"></a>
+        </div>
+
+    <div class="ico">
+        <a href="http://festivalofco.de/"><img src="small_yrs2.gif" alt="yrs" class="yrs"></a>
+    </div>  
+<div id="head">
+<div class="log">
+<br>
+<img src="know_your_place_logov6.png" alt="logo" class="logo">
+<br>
+</div>
+    
+</div>
+        
+ <div id="stuff">
+     
+
+     
+     <div id="info">
+         <div id="tree">
+    <img src="Tree-silo1.png" alt="tre" class="tre">
+    </div>
+     <h1>Welcome to Know Your Place beta</h1>
+     <h2>A tool for finding large amounts of information about your area</h2>
+         <p>Know your place,  or KYP is a practical tool that can be used for finding a range info on your local area or any area you want based on a post code. this includes local restauraunts, crime, geocache locations and much more...<br><br>Coded by the LNK UNIT YRS crew July 2014</p>
+
+         </div>
+
+    <div id="blocki">
+        <form name="input" action="demo_form_action.asp" method="get">
+<div id="pos">
+ Enter your postcode
+
+</div>
+<div id="search">
+    <input type="text" class="posti" name="postcode" placeholder="Postcode">
+<br>
+<input type="submit" value="Submit" class="sub">
+</div>
+</form>
+    </div>
+<br>
+     <br>
+     <video width="50%" height="50%" id="vid" controls>
+  <source src="Instructional_video(1).webm" type="video/webm">
+</video>
+     
+</div>
+</div>
+</body>
+
+
+</html>
